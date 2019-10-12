@@ -1,5 +1,4 @@
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.csprojAssemblyReference.cache
-C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.csproj.CoreCompileInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.RazorAssemblyInfo.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.RazorAssemblyInfo.cs
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.AssemblyInfoInputs.cache
@@ -19,3 +18,6 @@ C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcor
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.csproj.CopyComplete
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.dll
 C:\workspace\access-one\backend\accessone\AccessOne.Application\obj\Debug\netcoreapp2.2\AccessOne.Application.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Application\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\workspace\access-one\backend\accessone\AccessOne.Application\bin\Debug\netcoreapp2.2\appsettings.json
+C:\workspace\access-one\backend\accessone\AccessOne.Application\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

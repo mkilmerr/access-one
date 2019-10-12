@@ -1,0 +1,11 @@
+C:\workspace\access-one\background\background\bin\Debug\netcoreapp2.2\background.deps.json
+C:\workspace\access-one\background\background\bin\Debug\netcoreapp2.2\background.runtimeconfig.json
+C:\workspace\access-one\background\background\bin\Debug\netcoreapp2.2\background.runtimeconfig.dev.json
+C:\workspace\access-one\background\background\bin\Debug\netcoreapp2.2\background.dll
+C:\workspace\access-one\background\background\bin\Debug\netcoreapp2.2\background.pdb
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.csprojAssemblyReference.cache
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.csproj.CoreCompileInputs.cache
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.AssemblyInfoInputs.cache
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.AssemblyInfo.cs
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.dll
+C:\workspace\access-one\background\background\obj\Debug\netcoreapp2.2\background.pdb

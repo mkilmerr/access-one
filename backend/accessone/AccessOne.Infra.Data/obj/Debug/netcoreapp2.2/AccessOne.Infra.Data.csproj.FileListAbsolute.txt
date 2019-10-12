@@ -1,7 +1,6 @@
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.deps.json
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.dll
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.csprojAssemblyReference.cache
-C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.csproj.CoreCompileInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.AssemblyInfoInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.AssemblyInfo.cs
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Domain.dll
