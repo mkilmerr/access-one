@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Infra.Data\\AccessOne.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\AccessOne.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\AccessOne.Domain.csproj",
+        "projectName": "AccessOne.Domain",
+        "projectPath": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\AccessOne.Domain.csproj",
+        "packagesPath": "C:\\Users\\alanb\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Infra.Data\\AccessOne.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Infra.Data\\AccessOne.Infra.Data.csproj",
+        "projectName": "AccessOne.Infra.Data",
+        "projectPath": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Infra.Data\\AccessOne.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\alanb\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\AccessOne.Domain.csproj": {
+                "projectPath": "C:\\workspace\\access-one\\backend\\accessone\\AccessOne.Domain\\AccessOne.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
