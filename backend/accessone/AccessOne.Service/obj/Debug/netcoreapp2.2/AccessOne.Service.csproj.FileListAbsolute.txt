@@ -1,0 +1,5 @@
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Service.deps.json
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Service.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.csproj.CoreCompileInputs.cache
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.AssemblyInfoInputs.cache
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.AssemblyInfo.cs
