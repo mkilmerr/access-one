@@ -1,4 +1,5 @@
 ﻿using AccessOne.Domain.Entities;
+using AccessOne.Infra.Data.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 namespace AccessOne.Infra.Data.Context
@@ -13,8 +14,17 @@ namespace AccessOne.Infra.Data.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("connectionstring");
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=accessone;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Computador>(new ComputadorMap().Configure);
+            modelBuilder.Entity<Comando>(new ComandoMap().Configure);
+            modelBuilder.Entity<Grupo>(new GrupoMap().Configure);
         }
     }
 }
