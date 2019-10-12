@@ -5,3 +5,10 @@ C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcore
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.AssemblyInfoInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.AssemblyInfo.cs
 C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Domain.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.runtimeconfig.json
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.runtimeconfig.dev.json
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\bin\Debug\netcoreapp2.2\AccessOne.Domain.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.csproj.CopyComplete
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Infra.Data\obj\Debug\netcoreapp2.2\AccessOne.Infra.Data.pdb

@@ -25,12 +25,12 @@ namespace AccessOne.Infra.Data.Repository
 
         public Computador Select(int id)
         {
-            return context.Computadores.Include(cm => cm.Comandos).SingleOrDefault(c => c.Id == id);
+            return context.Computadores.Include(cm => cm.Comandos).Include(g => g.Grupo).SingleOrDefault(c => c.Id == id);
         }
 
         public IList<Computador> Select()
         {
-            return context.Computadores.Include(cm => cm.Comandos).ToList();
+            return context.Computadores.Include(cm => cm.Comandos).Include(g => g.Grupo).ToList();
         }
 
         public void Update(T obj)

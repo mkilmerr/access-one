@@ -1,7 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using AccessOne.Domain.Entities;
+using AccessOne.Service.Services;
+using AccessOne.Service.Validator;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccessOne.Application.Controllers
@@ -11,36 +12,104 @@ namespace AccessOne.Application.Controllers
     [ApiController]
     public class ComputadorController : ControllerBase
     {
-        // GET api/values
+
+        private ComputadorService service = new ComputadorService();
+
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [AllowAnonymous]
+        [Route("computador")]
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                return new ObjectResult(service.Get());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("computador/{id}")]
+        public IActionResult Get(int id)
         {
-            return "value";
+            try
+            {
+                return new ObjectResult(service.Get(id));
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        [AllowAnonymous]
+        [Route("computador")]
+        public IActionResult Post([FromBody] Computador item)
         {
+            try
+            {
+                service.Post<ComputadorValidator>(item);
+
+                return new ObjectResult(item.Id);
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        [AllowAnonymous]
+        [Route("computador")]
+        public IActionResult Put([FromBody] Computador item)
         {
+            try
+            {
+                service.Put<ComputadorValidator>(item);
+
+                return new ObjectResult(item);
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        [AllowAnonymous]
+        [Route("computador")]
+        public IActionResult Delete(int id)
         {
+            try
+            {
+                service.Delete(id);
+
+                return new NoContentResult();
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
     }
 }

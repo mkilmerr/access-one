@@ -3,3 +3,12 @@ C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp
 C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.csproj.CoreCompileInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.AssemblyInfoInputs.cache
 C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.AssemblyInfo.cs
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.csprojAssemblyReference.cache
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Service.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Domain.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Domain.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Service\bin\Debug\netcoreapp2.2\AccessOne.Infra.Data.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.csproj.CopyComplete
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.dll
+C:\workspace\access-one\backend\accessone\AccessOne.Service\obj\Debug\netcoreapp2.2\AccessOne.Service.pdb
