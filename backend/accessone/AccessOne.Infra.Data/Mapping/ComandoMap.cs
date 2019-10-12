@@ -26,6 +26,9 @@ namespace AccessOne.Infra.Data.Mapping
             builder.Property(c => c.DataExecucao)
                     .IsRequired()
                     .HasColumnName("DataExecucao");
+
+            builder.Property(c => c.Retorno)
+                    .HasColumnName("Retorno");
         }
     }
 

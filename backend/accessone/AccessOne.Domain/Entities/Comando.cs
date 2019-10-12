@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AccessOne.Domain.Entities
 {
@@ -10,5 +8,6 @@ namespace AccessOne.Domain.Entities
         public Computador Computador { get; set; }
         public DateTime DataRegistro { get; set; }
         public DateTime? DataExecucao { get; set; }
+        public string Retorno { get; set; }
     }
 }

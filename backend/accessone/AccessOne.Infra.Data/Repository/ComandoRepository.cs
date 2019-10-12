@@ -6,31 +6,31 @@ using System.Linq;
 
 namespace AccessOne.Infra.Data.Repository
 {
-    public class GrupoRepository<T>
+    public class ComandoRepository<T>
     {
         private AccessOneContext context = new AccessOneContext();
 
         public void Delete(int id)
         {
-            var grupo = context.Grupos.SingleOrDefault(c => c.Id == id);
-            context.Grupos.Remove(grupo);
+            var grupo = context.Comandos.SingleOrDefault(cm => cm.Id == id);
+            context.Comandos.Remove(grupo);
             context.SaveChanges();
         }
 
-        public void Insert(Grupo obj)
+        public void Insert(Comando obj)
         {
-            context.Grupos.Add(obj);
+            context.Comandos.Add(obj);
             context.SaveChanges();
         }
 
-        public Grupo Select(int id)
+        public Comando Select(int id)
         {
-            return context.Grupos.SingleOrDefault(c => c.Id == id);
+            return context.Comandos.SingleOrDefault(c => c.Id == id);
         }
 
-        public IList<Grupo> Select()
+        public IList<Comando> Select()
         {
-            return context.Grupos.ToList();
+            return context.Comandos.ToList();
         }
 
         public void Update(T obj)

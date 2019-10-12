@@ -10,13 +10,13 @@ namespace AccessOne.Application.Controllers
     [Produces("application/json")]
     [Route("api/")]
     [ApiController]
-    public class GrupoController : ControllerBase
+    public class ComandoController : ControllerBase
     {
-        private GrupoService service = new GrupoService();
+        private ComandoService service = new ComandoService();
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("grupo")]
+        [Route("comando")]
         public IActionResult Get()
         {
             try
@@ -31,7 +31,7 @@ namespace AccessOne.Application.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        [Route("grupo/{id}")]
+        [Route("comando/{id}")]
         public IActionResult Get(int id)
         {
             try
@@ -50,12 +50,12 @@ namespace AccessOne.Application.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [Route("grupo")]
-        public IActionResult Post([FromBody] Grupo item)
+        [Route("comando")]
+        public IActionResult Post([FromBody] Comando item)
         {
             try
             {
-                service.Post<GrupoValidator>(item);
+                service.Post<ComandoValidator>(item);
 
                 return new ObjectResult(item.Id);
             }
@@ -71,12 +71,12 @@ namespace AccessOne.Application.Controllers
 
         [HttpPut]
         [AllowAnonymous]
-        [Route("grupo")]
-        public IActionResult Put([FromBody] Grupo item)
+        [Route("comando")]
+        public IActionResult Put([FromBody] Comando item)
         {
             try
             {
-                service.Put<GrupoValidator>(item);
+                service.Put<ComandoValidator>(item);
 
                 return new ObjectResult(item);
             }
@@ -92,7 +92,7 @@ namespace AccessOne.Application.Controllers
 
         [HttpDelete]
         [AllowAnonymous]
-        [Route("grupo")]
+        [Route("comando")]
         public IActionResult Delete(int id)
         {
             try

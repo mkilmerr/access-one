@@ -6,3 +6,4 @@ C:\workspace\access-one\backend\accessone\AccessOne.Domain\obj\Debug\netcoreapp2
 C:\workspace\access-one\backend\accessone\AccessOne.Domain\bin\Debug\netcoreapp2.2\AccessOne.Domain.pdb
 C:\workspace\access-one\backend\accessone\AccessOne.Domain\obj\Debug\netcoreapp2.2\AccessOne.Domain.dll
 C:\workspace\access-one\backend\accessone\AccessOne.Domain\obj\Debug\netcoreapp2.2\AccessOne.Domain.pdb
+C:\workspace\access-one\backend\accessone\AccessOne.Domain\obj\Debug\netcoreapp2.2\AccessOne.Domain.csprojAssemblyReference.cache
