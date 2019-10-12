@@ -3,7 +3,6 @@ using AccessOne.Infra.Data.Repository;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace AccessOne.Service.Services
 {
@@ -32,14 +31,14 @@ namespace AccessOne.Service.Services
             return repository.Select();
         }
 
-        public Computador Post<V>(Computador obj) where V : AbstractValidator<Grupo>
+        public Grupo Post<V>(Grupo obj) where V : AbstractValidator<Grupo>
         {
             Validate(obj, Activator.CreateInstance<V>());
             repository.Insert(obj);
             return obj;
         }
 
-        public Computador Put<V>(Computador obj) where V : AbstractValidator<Grupo>
+        public Grupo Put<V>(Grupo obj) where V : AbstractValidator<Grupo>
         {
             Validate(obj, Activator.CreateInstance<V>());
 
